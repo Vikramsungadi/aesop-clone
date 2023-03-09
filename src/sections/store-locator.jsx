@@ -5,8 +5,11 @@ import room from "../assets/room.jpg";
 import { motion } from "framer-motion";
 import Content from "../components/content";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-
 import Wrapper from "../components/wrapper";
+
+import image0 from "../assets/storelocators/Aesop_Harbour_City_II_Hero_Bleed_Desktop_2880x1620px.webp";
+import image1 from "../assets/storelocators/Aesop-HK-Gough-Street-Hero-Desktop-2880x1620px.jpg";
+import image2 from "../assets/storelocators/Aesop-HK-Hollywood-Road-Hero-Desktop-2880x1620.jpg";
 
 const locator = () => {
   let { title, tag, content, color, btnText, image, order } = {
@@ -26,13 +29,13 @@ const locator = () => {
   let [sizes, setSizes] = useState(0);
   let images = [
     {
-      src: "src/assets/storelocators/Aesop_Harbour_City_II_Hero_Bleed_Desktop_2880x1620px.webp",
+      src: image0,
     },
     {
-      src: "src/assets/storelocators/Aesop-HK-Gough-Street-Hero-Desktop-2880x1620px.jpg",
+      src: image1,
     },
     {
-      src: "src/assets/storelocators/Aesop-HK-Hollywood-Road-Hero-Desktop-2880x1620.jpg ",
+      src: image2,
     },
   ];
   const prev = () =>

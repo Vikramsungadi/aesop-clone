@@ -2,6 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import Image from "../components/carousel-image";
 import Wrapper from "../components/wrapper";
 
+import image1 from "../assets/superlatives/Aesop_Fragrance_Marrakech_Eau_de_Parfum_50mL_Web_Large_1000x977px.webp";
+import image0 from "../assets/superlatives/Aesop_Fragrance_Miraceti_Eau_de_Parfum_50mL_Web_Large_684x668px.webp";
+import image2 from "../assets/superlatives/Aesop_Fragrance_Rozu_Eau_de_Parfum_50mL_Web_Large_1000x977px.webp";
+import image4 from "../assets/superlatives/Aesop_Kits_Rick_Owens_Web_Large_1584x962px.webp";
+import image6 from "../assets/superlatives/Aesop_Skin_Sublime_Replenishing_Night_Masque_60mL_Web_Large_901x478px.png";
+import image8 from "../assets/superlatives/Aesop-Body-Geranium-Leaf-Body-Cleanser-100mL-Hybris-Large-835x962px.webp";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 import { motion } from "framer-motion";
@@ -10,43 +16,36 @@ const superlative = () => {
   let images = [
     {
       id: 1,
-      image:
-        "src/assets/superlatives/Aesop_Fragrance_Marrakech_Eau_de_Parfum_50mL_Web_Large_1000x977px.webp",
-      name: "Rōzu Eau de Parfum",
+      image: image1,
       desc: "Both brazen and delicate",
     },
     {
       id: 2,
-      image:
-        "src/assets/superlatives/Aesop_Fragrance_Miraceti_Eau_de_Parfum_50mL_Web_Large_684x668px.webp",
+      image: image0,
       name: "Aesop & Rick Owens Travel Kit",
       desc: "Fragrant essentials for journeys near or far ",
     },
     {
       id: 3,
-      image:
-        "src/assets/superlatives/Aesop_Fragrance_Rozu_Eau_de_Parfum_50mL_Web_Large_1000x977px.webp",
+      image: image2,
       name: "Miraceti Eau de Parfum",
       desc: "Resinous, woody, spicy fragrance",
     },
     {
       id: 4,
-      image:
-        "src/assets/superlatives/Aesop_Kits_Rick_Owens_Web_Large_1584x962px.webp",
+      image: image4,
       name: "Marrakech Intense Eau de Parfum",
       desc: "Woody, opulent, floral fragrance",
     },
     {
       id: 5,
-      image:
-        "src/assets/superlatives/Aesop_Skin_Sublime_Replenishing_Night_Masque_60mL_Web_Large_901x478px.png",
+      image: image6,
       name: "Geranium Leaf Body Cleanser",
       desc: "A gentle, invigorating gel cleanser",
     },
     {
       id: 6,
-      image:
-        "src/assets/superlatives/Aesop-Body-Geranium-Leaf-Body-Cleanser-100mL-Hybris-Large-835x962px.webp",
+      image: image8,
       name: "Sublime Replenishing Night Masque",
       desc: "Balances the appearance of skin",
     },
