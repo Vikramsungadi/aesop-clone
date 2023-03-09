@@ -80,6 +80,19 @@
   .btn-right {
     @apply right-0;
   }
+
+  .mobile li {
+    @apply flex w-full items-center justify-between bg-primary p-3 text-dark;
+    transition: all 0.3s ease;
+  }
+  .mobile li span {
+    opacity: 0.7;
+  }
+  .mobile li:hover span,
+  .mobile li:focus span {
+    opacity: 1;
+    scale: 1.04;
+  }
 }
 @layer base {
   footer {
